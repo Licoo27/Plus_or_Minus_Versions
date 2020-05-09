@@ -11,16 +11,16 @@ int main () {
     
     printf("Let's go !\n");
     
-    while(n != mn){
+    while(tn != mn){
         printf("What number ?");
-        scanf("%d", &n);
-        if (n < mn)
+        scanf("%d", &tn);
+        if (tn < mn)
             printf("Taller !\n");
-        if (n > mn)
+        if (tn > mn)
             printf("Smaller !\n");
     }
     
-    if (n == mn)
+    if (tn == mn)
         printf("\nCongratulations, you won !\n\n");
     
     return 0;
