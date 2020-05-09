@@ -16,7 +16,7 @@ int main () {
         printf("What number ?");
         scanf("%d", &tn);
         if (tn < mn)
-            printf("Taller !\n");
+            printf("Bigger !\n");
         if (tn > mn)
             printf("Smaller !\n");
     
