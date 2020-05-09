@@ -5,7 +5,7 @@
 int main () {
     
     const int MAX = 100, MIN = 0;
-    int n = 0;
+    int tn = 0;
     srand(time(NULL));
     int mn = (rand() % (MAX - MIN + 1)) + MIN;
     
