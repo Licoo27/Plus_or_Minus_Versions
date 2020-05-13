@@ -6,7 +6,7 @@ int main () {
     
     const int MAX = 100, MIN = 0;
     char YN = 'A';
-    int n = 0;
+    int tn = 0;
     srand(time(NULL));
     int mn = (rand() % (MAX - MIN + 1)) + MIN;
     
@@ -19,15 +19,15 @@ int main () {
         if(YN == 'Y'){
             printf("Let's go !\n");
             
-            while(n != mn){
+            while(tn != mn){
                 printf("What number ?");
-                scanf(" %d", &n);
-                if (n < mn)
+                scanf(" %d", &tn);
+                if (tn < mn)
                     printf("Bigger !\n");
-                if (n > mn)
+                if (tn > mn)
                     printf("Smaller !\n");
             }
-            if (n == mn)
+            if (tn == mn)
                 printf("\nCongratulations, you won !\n\n");
         }
         
