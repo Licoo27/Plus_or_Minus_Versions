@@ -14,7 +14,7 @@ int main () {
     printf(" Hello, my name is computplay, we're gonna play a game, all right ? (Y/N)");
     scanf("%c", &YN);
     if(YN == 'Y'){
-        printf(" Great, so the game is called + or -, I focus on a number, and you have to guess it, ready ? (Y/N)");
+        printf(" Great, so the game is called + or -, I focus on a number between 0 and 100, and you have to guess it, ready ? (Y/N)");
         scanf(" %c", &YN);
         
         if(YN == 'Y'){
